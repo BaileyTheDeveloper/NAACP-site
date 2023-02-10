@@ -1,0 +1,120 @@
+/* mobile phone */
+@media only screen and (max-width: 480px) {
+	/* container */
+
+	.container {
+		width: 100vw;
+		margin: 0px;
+		box-shadow: none;
+	}
+
+	/* nav bar  */
+	.nav {
+		display: flex;
+		justify-content: space-between;
+		height: 6vh;
+	}
+
+	.nav img {
+		height: 5vw;
+		margin-left: 2vw;
+		margin-bottom: 2vw;
+		height: 115%;
+		vertical-align: middle;
+	}
+	.nav ul {
+		display: none;
+	}
+
+	/* hero section */
+	#hero-bg {
+		width: 100vw;
+	}
+	#join-pic {
+		width: 60%;
+		position: absolute;
+		left: 20vw;
+		top: 30vw;
+		background: rgba(0, 0, 0, 0.3);
+	}
+
+	/* about */
+
+	.about {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		font-family: "Quicksand", sans-serif;
+		align-items: center;
+		text-align: center;
+	}
+
+	.about img {
+		width: 75vw;
+		margin-bottom: 3vh;
+	}
+
+	#about-text {
+		width: 90vw;
+		margin: 2vw;
+	}
+
+	.about h1 {
+		font-size: 2rem;
+		color: rgb(175, 98, 247);
+		text-align: center;
+		padding-bottom: 3vh;
+	}
+
+	/* Covid know */
+
+	.covid-know {
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: space-around;
+		font-family: "Quicksand", sans-serif;
+		align-items: center;
+		text-align: center;
+	}
+
+	#covid-know-logo img {
+		width: 75vw;
+		border-radius: 25px;
+		margin: 2vh;
+	}
+
+	#covid-know-text {
+		width: 90vw;
+		margin: 2vw;
+	}
+
+	/* donation and facebook */
+
+	.facebook {
+		width: 50vw;
+		margin: auto;
+		margin-top: 10vw;
+		margin-bottom: 5vw;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+
+	#donate-btn {
+		font-size: 1.75rem;
+		font-weight: 600;
+		color: black;
+		text-decoration: none;
+		border-radius: 20px;
+		background-color: rgb(175, 98, 247);
+		color: white;
+		width: 25vw;
+		height: 4vh;
+		padding: 4vw;
+		text-align: center;
+		font-family: "Quicksand", sans-serif;
+		margin-top: 5vh;
+		margin-bottom: 2vh;
+	}
+}

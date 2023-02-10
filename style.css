@@ -9,7 +9,7 @@ img {
 
 /* container */
 .container {
-	width: 80%;
+	width: 80vw;
 	margin: auto;
 	box-shadow: 1px 1px 20px black;
 }
@@ -22,8 +22,8 @@ img {
 
 .nav img {
 	height: 5vw;
-	margin-left: 15px;
-	margin-bottom: 15px;
+	margin-left: 2vw;
+	margin-bottom: 2vw;
 	height: 115%;
 	vertical-align: middle;
 }
@@ -34,17 +34,16 @@ img {
 	list-style: none;
 	display: flex;
 	justify-content: space-around;
-	float: right;
 }
 
 .nav a {
 	text-decoration: none;
-	padding: 10px 40px;
+	padding: 1vw 2vw;
 	color: black;
 }
 
 .nav li {
-	margin-top: 35px;
+	margin-top: 4vh;
 }
 
 .nav a:hover {
@@ -54,6 +53,7 @@ img {
 }
 
 /* hero section */
+
 #join-pic {
 	width: 60%;
 	position: absolute;
@@ -68,31 +68,30 @@ img {
 	display: flex;
 	justify-content: space-around;
 	font-family: "Quicksand", sans-serif;
-	margin-bottom: 40px;
+	margin-bottom: 4vh;
 	margin-left: 1vw;
 }
 
 .about img {
-	margin-top: 15px;
 	width: 75vw;
 }
 
 #about-image img {
 	border-radius: 25px;
-	margin-top: 28px;
+	margin-top: 4vh;
 	box-shadow: 1px 1px 10px black;
 }
 
 #about-text {
 	width: 90vw;
-	margin: 50px;
+	margin: 2vw;
 }
 
 .about h1 {
 	font-size: 2rem;
 	color: rgb(175, 98, 247);
 	text-align: center;
-	padding-bottom: 25px;
+	padding-bottom: 2vh;
 }
 
 .about a {
@@ -128,12 +127,12 @@ img {
 #covid-know-logo img {
 	width: 30vw;
 	border-radius: 25px;
-	margin: 25px;
+	margin: 2vh;
 }
 
 #covid-know-text {
 	width: 40vw;
-	margin: 50px;
+	margin: 2vw;
 }
 
 /* donation and facebook */
@@ -154,10 +153,10 @@ img {
 	text-decoration: none;
 	border-radius: 25px;
 	background-color: rgb(175, 98, 247);
-	color: yellow;
+	color: white;
 	width: 15%;
 	height: 25%;
-	padding: 15px;
+	padding: 1vw;
 	text-align: center;
 	font-family: "Quicksand", sans-serif;
 	margin-top: 20px;
