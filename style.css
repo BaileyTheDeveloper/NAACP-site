@@ -52,6 +52,10 @@ img {
 	color: white;
 }
 
+.nav-mobile {
+	display: none;
+}
+
 /* hero section */
 
 #join-pic {
@@ -149,7 +153,6 @@ img {
 #donate-btn {
 	font-size: 1.75rem;
 	font-weight: 600;
-	color: black;
 	text-decoration: none;
 	border-radius: 25px;
 	background-color: rgb(175, 98, 247);
