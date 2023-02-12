@@ -70,6 +70,8 @@
 		background: none;
 		outline: none;
 		border: none;
+		overflow:visible !important;
+		z-index: 99;
 	}
 
 	.hamburger .bar,
@@ -83,7 +85,7 @@
 		margin: 6px 0px;
 		transition: 0.4s;
 		opacity: 100%;
-		z-index: 99;
+		
 	}
 
 	.hamburger.is-active::before {
