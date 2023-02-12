@@ -16,10 +16,12 @@
 	}
 
 	.nav img {
+		position: relative;
+		top: 4vw;
 		height: 5vw;
 		margin-left: 2vw;
 		margin-bottom: 2vw;
-		height: 115%;
+		height: 10vh;
 		vertical-align: middle;
 	}
 	.nav ul {
@@ -98,7 +100,6 @@
 		width: 100vw;
 	}
 	#join-pic {
-		background-color: black;
 		width: 60%;
 		position: absolute;
 		left: 20vw;
