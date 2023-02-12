@@ -83,6 +83,7 @@
 		margin: 6px 0px;
 		transition: 0.4s;
 		opacity: 100%;
+		z-index: 99;
 	}
 
 	.hamburger.is-active::before {
