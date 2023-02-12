@@ -82,6 +82,7 @@
 		background-color: rgb(113, 78, 146);
 		margin: 6px 0px;
 		transition: 0.4s;
+		opacity: 100%;
 	}
 
 	.hamburger.is-active::before {
