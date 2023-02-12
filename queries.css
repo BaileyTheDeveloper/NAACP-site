@@ -33,7 +33,7 @@
 		width: 100vw;
 		left: 100%;
 		height: auto;
-		position: absolute;
+		position: fixed;
 		text-align: center;
 		z-index: 98;
 		background-color: rgb(175, 98, 247);
@@ -62,7 +62,7 @@
 
 	.hamburger {
 		position: relative;
-		left: 90vw;
+		left: 85vw;
 		width: 35px;
 		height: 25px;
 		cursor: pointer;
@@ -103,7 +103,7 @@
 		width: 60%;
 		position: absolute;
 		left: 20vw;
-		top: 30vw;
+		top: 25%;
 	}
 
 	/* about */
